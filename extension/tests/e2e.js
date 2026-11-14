@@ -351,7 +351,7 @@ async function testerVoix(page) {
     console.log((ok ? "OK    " : "ECHEC ") + JSON.stringify(r));
     await contexte.close();
   }
-  fs.writeFileSync(path.join(__dirname, "..", "..", "docs", "rapport_e2e.json"), JSON.stringify(rapport, null, 2));
+  if (process.env.RAPPORT) fs.writeFileSync(process.env.RAPPORT, JSON.stringify(rapport, null, 2));
   // Phrases reellement envoyees (sans valeurs) : servent a precharger le cache hors ligne
   if (PAGES.length > 3) fs.writeFileSync(path.join(__dirname, "..", "..", "outils", "phrases_demo.json"), JSON.stringify([...phrases].sort(), null, 1));
   await navigateur.close();

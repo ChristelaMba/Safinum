@@ -11,13 +11,15 @@ services:
       - key: SAFINUM_LLM_URL
         value: https://generativelanguage.googleapis.com/v1beta/openai
       - key: SAFINUM_MODEL
-        value: gemini-3.5-flash-lite
+        value: gemini-3.5-flash
       - key: SAFINUM_MODEL_RAPIDE
         value: gemini-3.5-flash-lite
+      - key: SAFINUM_CONCURRENCE
+        value: "2"
       - key: SAFINUM_CORS
         value: "*"
       - key: SAFINUM_DEBIT
-        value: "120"
+        value: "30"
       - key: SAFINUM_STRICT
         value: "1"
       - key: SAFINUM_LLM_KEY
