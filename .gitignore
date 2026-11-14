@@ -1,7 +1,6 @@
 __pycache__/
 .env
 *.pyc
-serveur/cache_precharge.json
 .pytest_cache/
 node_modules/
 serveur/.venv/

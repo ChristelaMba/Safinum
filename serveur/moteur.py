@@ -302,6 +302,9 @@ class MoteurOpenAI(MoteurBase):
         self.nom = "ollama" if local else "openai"
         self.url = os.getenv("SAFINUM_LLM_URL", "http://localhost:11434/v1" if local else "").rstrip("/")
         self.cle = os.getenv("SAFINUM_LLM_KEY", "ollama" if local else "").strip()
+        # Cles de secours facultatives (autres projets du fournisseur) : on passe a la suivante quand une cle a un quota refuse.
+        self.cles = [self.cle] + [c for c in (os.getenv("SAFINUM_LLM_KEY_%d" % i, "").strip() for i in (2, 3, 4)) if c and c != self.cle]
+        self._cle_active = 0
         self.modele = os.getenv("SAFINUM_MODEL", "")
         self.modele_rapide = os.getenv("SAFINUM_MODEL_RAPIDE", "") or self.modele
         self.delai = float(os.getenv("SAFINUM_DELAI", "25"))
@@ -330,12 +333,19 @@ class MoteurOpenAI(MoteurBase):
         if self.raisonnement:
             corps["reasoning_effort"] = self.raisonnement
         async with httpx.AsyncClient(timeout=self.delai) as client:
-            r = await client.post(self.url + "/chat/completions", json=corps, headers={"Authorization": "Bearer " + self.cle})
-            if r.status_code == 400 and self.raisonnement:
-                # Le fournisseur ne connait pas ce parametre pour ce modele : on le retire pour la suite
-                self.raisonnement = ""
-                corps.pop("reasoning_effort", None)
-                r = await client.post(self.url + "/chat/completions", json=corps, headers={"Authorization": "Bearer " + self.cle})
+            r = None
+            for decalage in range(len(self.cles)):
+                i = (self._cle_active + decalage) % len(self.cles)
+                entetes = {"Authorization": "Bearer " + self.cles[i]}
+                r = await client.post(self.url + "/chat/completions", json=corps, headers=entetes)
+                if r.status_code == 400 and self.raisonnement:
+                    # Le fournisseur ne connait pas ce parametre pour ce modele : on le retire pour la suite
+                    self.raisonnement = ""
+                    corps.pop("reasoning_effort", None)
+                    r = await client.post(self.url + "/chat/completions", json=corps, headers=entetes)
+                if r.status_code != 429 or len(self.cles) == 1:
+                    self._cle_active = i
+                    break
         if r.status_code >= 400:
             raise ErreurMoteur(classer_erreur(type("E", (Exception,), {"status_code": r.status_code})()), self._detail_http(r, corps["model"]))
         return r.json()["choices"][0]["message"]["content"]
@@ -349,8 +359,9 @@ class MoteurOpenAI(MoteurBase):
             message = str(j.get("error", {}).get("message", ""))
         except Exception:  # noqa: BLE001
             message = r.text[:160]
-        if self.cle:
-            message = message.replace(self.cle, "***")
+        for c in getattr(self, "cles", [self.cle]):
+            if c:
+                message = message.replace(c, "***")
         return "http_%d | modele=%s | %s" % (r.status_code, modele, message[:160])
 
     async def lister_modeles(self):

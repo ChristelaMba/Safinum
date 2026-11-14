@@ -81,7 +81,8 @@ Vérifier : `python outils/verifier_glossaires.py`. Reconstruire depuis les Exce
 langue : déposer `serveur/langues/xxx.yaml` et `serveur/glossaires/xxx.csv`, relancer le serveur. Aucune entrée n'est `valide` tant
 qu'un locuteur ne l'a pas relue.
 Démonstration hors connexion : `python outils/precharger_cache.py pcm` (dans `serveur`, avec un moteur valide) produit
-`serveur\cache_precharge.json`, chargé au démarrage.
+`serveur\cache_precharge.json`, chargé au démarrage. Le fichier fourni (Pidgin 141 phrases, Fulfulde 50) évite d'appeler le fournisseur
+pour les pages de démonstration, y compris après un redéploiement. Ces traductions ne sont pas relues par un locuteur.
 
 ## Dépannage
 | Symptôme | Cause probable |

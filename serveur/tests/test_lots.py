@@ -381,3 +381,46 @@ def test_extension_telechargeable_reglee_sur_le_serveur():
     assert "safinum-extension/manifest.json" in noms
     assert not any("/tests/" in n or n.endswith(".env") for n in noms)
     assert json.loads(z.read("safinum-extension/config.json"))["serveur"].startswith("http")
+
+
+def test_cle_de_secours_quand_la_premiere_a_son_quota_refuse(monkeypatch):
+    import asyncio
+    import httpx
+    import moteur as m
+
+    monkeypatch.setenv("SAFINUM_LLM_URL", "https://exemple.test/v1")
+    monkeypatch.setenv("SAFINUM_LLM_KEY", "cle-un")
+    monkeypatch.setenv("SAFINUM_LLM_KEY_2", "cle-deux")
+    monkeypatch.setenv("SAFINUM_MODEL", "m")
+    monkeypatch.setenv("SAFINUM_RAISONNEMENT", "off")
+    vues = []
+
+    class Rep:
+        def __init__(self, code):
+            self.status_code = code
+            self.text = ""
+
+        def json(self):
+            return {"choices": [{"message": {"content": "ok"}}]} if self.status_code == 200 else {"error": {"message": "quota"}}
+
+    class Faux:
+        def __init__(self, *a, **k):
+            pass
+
+        async def __aenter__(self):
+            return self
+
+        async def __aexit__(self, *a):
+            return False
+
+        async def post(self, url, json=None, headers=None):
+            vues.append(headers["Authorization"])
+            return Rep(429 if headers["Authorization"].endswith("cle-un") else 200)
+
+    monkeypatch.setattr(httpx, "AsyncClient", Faux)
+    moteur = m.MoteurOpenAI()
+    assert asyncio.run(moteur.completer("s", "u")) == "ok"
+    assert vues == ["Bearer cle-un", "Bearer cle-deux"]
+    vues.clear()
+    asyncio.run(moteur.completer("s", "u"))
+    assert vues == ["Bearer cle-deux"]  # on reste sur la cle qui marche

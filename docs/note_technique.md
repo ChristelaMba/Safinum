@@ -170,6 +170,12 @@ Vitesse : première traduction d'une page jamais vue 8 à 16 secondes avec l'off
 Ces mesures ne disent pas si le Pidgin et le Fulfulde produits sont corrects : aucun locuteur ne les a relus.
 
 ## 10. Limites connues
+**Quota du fournisseur de traduction** : l'équipe n'a pas de budget ; le moteur (Google Gemini) est utilisé avec l'offre gratuite, dont les quotas
+(par minute et par jour) peuvent refuser des requêtes. Dans ce cas, le texte reste en original (comportement de sécurité, jamais une fausse
+traduction). Pour limiter ce risque, un cache préchargé (`serveur/cache_precharge.json`, 141 phrases en Pidgin et 50 en Fulfulde, textes
+des pages de démonstration, sans aucune valeur financière) est livré avec le serveur : ces pages se traduisent sans appeler le fournisseur.
+Les pages inédites dépendent du quota.
+
 **Linguistiques**
 - **Pas de dictionnaire financier en Fulfulde** : le vocabulaire de base (solde, frais, bénéficiaire...) n'a pas d'équivalent de référence ;
   les termes proposés (63) viennent du modèle et d'un brouillon, non validés. C'est la principale limite de la langue nationale.
