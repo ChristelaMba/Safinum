@@ -144,18 +144,24 @@ class MoteurBase:
     async def completer(self, systeme, utilisateur, max_tokens=1500, rapide=False):
         raise ErreurMoteur(self.cause)
 
-    async def _avec_reprises(self, fabrique):
+    async def _avec_reprises(self, fabrique, attente_quota=True):
         """2 reprises avec attente croissante pour les erreurs passageres."""
         derniere = None
-        for essai in range(self.reprises + 1):
+        # Quota (limite par minute du fournisseur) : attente plus longue, sinon la reprise tombe dans la meme minute.
+        maxi = self.reprises + 1
+        essai = 0
+        while essai < maxi:
             try:
                 return await fabrique()
             except Exception as e:  # noqa: BLE001
                 derniere = classer_erreur(e)
                 self.dernier_detail = getattr(e, "detail", None) or (("http_%s" % e.status_code) if getattr(e, "status_code", None) else None)
-                if not reessayable(derniere) or essai == self.reprises:
+                if derniere == "quota_epuise" and attente_quota:
+                    maxi = max(maxi, 4)
+                if not reessayable(derniere) or essai == maxi - 1:
                     break
-                await asyncio.sleep(0.5 * (2 ** essai))
+                await asyncio.sleep((2.0 * (2 ** essai)) if derniere == "quota_epuise" and attente_quota else (0.5 * (2 ** essai)))
+            essai += 1
         raise ErreurMoteur(derniere or "reponse_invalide", getattr(self, "dernier_detail", None))
 
     async def _appel(self, systeme, utilisateur, max_tokens=1500, rapide=False):
@@ -165,7 +171,8 @@ class MoteurBase:
             rapide = True  # le principal vient d'echouer : inutile de le reessayer tout de suite
             self.repli_modele = True
         try:
-            return await self._avec_reprises(lambda: self.completer(systeme, utilisateur, max_tokens, rapide))
+            # s'il existe un modele de secours, on y passe vite au lieu d'attendre sur le principal
+            return await self._avec_reprises(lambda: self.completer(systeme, utilisateur, max_tokens, rapide), attente_quota=not (peut_basculer and not rapide))
         except ErreurMoteur as e:
             if e.type in ("quota_epuise", "fournisseur_surcharge", "serveur_injoignable") and not rapide and peut_basculer:
                 self.principal_epuise_jusqua = time.time() + 120
