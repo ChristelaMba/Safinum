@@ -1,0 +1,13 @@
+# Versions epinglees, toutes disponibles en roues precompilees (aucune compilation).
+# Python 3.10 a 3.13 (teste avec 3.12). Python 3.14 et plus : certaines roues manquent.
+fastapi==0.162.5
+uvicorn[standard]==0.54.0
+anthropic==2.8.0
+pyyaml==6.0.3
+python-dotenv==1.2.4
+httpx==0.28.1
+pytest==9.2.0
+# Facultatif (Fulfulde via NLLB et voix MMS) : decommenter seulement si le test d'ecoute est fait
+# transformers
+# torch
+# scipy

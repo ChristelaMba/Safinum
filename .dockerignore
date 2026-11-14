@@ -1,0 +1,9 @@
+serveur/.env
+serveur/.venv
+**/__pycache__
+**/.pytest_cache
+**/node_modules
+.git
+*.zip
+extension/tests
+extension/node_modules

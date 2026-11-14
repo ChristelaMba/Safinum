@@ -1,0 +1,199 @@
+:root {
+  --fond: #f2f5f4;
+  --encre: #14201f;
+  --vert: #0b5d4b;
+  --vert-clair: #d9ebe6;
+  --ambre: #e8a317;
+  --rouge: #b3261e;
+  --rouge-clair: #fbe4e2;
+  --trait: #c6d3cf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--encre);
+  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.appli {
+  max-width: 440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: #ffffff;
+  border-left: 1px solid var(--trait);
+  border-right: 1px solid var(--trait);
+}
+
+.entete {
+  padding: 16px 16px 0;
+  background: var(--vert);
+  color: #ffffff;
+}
+
+.marque {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.sous-titre {
+  margin: 4px 0 12px;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.menu {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+}
+
+.menu button {
+  flex: 1 0 auto;
+  min-height: 48px;
+  padding: 8px 12px;
+  color: #ffffff;
+  background: transparent;
+  border: 0;
+  border-bottom: 4px solid transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.menu button[aria-current="page"] {
+  border-bottom-color: var(--ambre);
+  font-weight: 700;
+}
+
+.menu button:focus-visible,
+.contenu button:focus-visible,
+.contenu input:focus-visible,
+.contenu select:focus-visible,
+.contenu textarea:focus-visible {
+  outline: 3px solid var(--ambre);
+  outline-offset: 2px;
+}
+
+.contenu {
+  padding: 16px;
+}
+
+.contenu h2 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+}
+
+.carte {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid var(--trait);
+  border-radius: 12px;
+}
+
+.liste-valeurs {
+  margin: 0;
+}
+
+.liste-valeurs dt {
+  font-size: 0.9rem;
+  color: #4a5b58;
+}
+
+.liste-valeurs dd {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.message {
+  margin: 0 0 12px;
+  padding: 12px;
+  background: var(--vert-clair);
+  border-left: 6px solid var(--vert);
+  border-radius: 6px;
+}
+
+.message.erreur {
+  background: var(--rouge-clair);
+  border-left-color: var(--rouge);
+}
+
+.message.alerte {
+  background: var(--rouge);
+  border-left-color: #6b1510;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.contenu button.action {
+  display: block;
+  width: 100%;
+  min-height: 52px;
+  margin-bottom: 8px;
+  padding: 10px 14px;
+  color: #ffffff;
+  background: var(--vert);
+  border: 0;
+  border-radius: 10px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contenu button.secondaire {
+  color: var(--vert);
+  background: #ffffff;
+  border: 2px solid var(--vert);
+}
+
+.champ {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.champ span {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.champ input,
+.champ select,
+.champ textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: 8px 10px;
+  font: inherit;
+  border: 2px solid var(--trait);
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 4px;
+  border-bottom: 1px solid var(--trait);
+  text-align: left;
+}
+
+td.valeur {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.discret {
+  font-size: 0.85rem;
+  color: #4a5b58;
+}

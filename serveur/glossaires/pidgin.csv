@@ -1,0 +1,501 @@
+fr,en,cible,confiance,statut,source
+Accepteur,Acceptor,Person wey accept payment,moyenne,brouillon,kamtok
+Acquéreur,Acquirer,Payment provider,moyenne,brouillon,kamtok
+Agent bancaire,Banking agent,Bank agent,moyenne,brouillon,kamtok
+Agrégateur de paiement,Payment aggregator,Payment aggregator,moyenne,brouillon,kamtok
+API,API,API,moyenne,brouillon,kamtok
+Authentification,Authentication,Check identity,moyenne,brouillon,kamtok
+Autorisation,Authorization,Approval,moyenne,brouillon,kamtok
+Bénéficiaire,Beneficiary,Receiver,moyenne,brouillon,kamtok
+Carte bancaire,Bank card,Bank card,moyenne,brouillon,kamtok
+Carte prépayée,Prepaid card,Prepaid card,moyenne,brouillon,kamtok
+Cash-in,Cash-in,Cash-in,moyenne,brouillon,kamtok
+Cash-out,Cash-out,Cash-out,moyenne,brouillon,kamtok
+Compensation,Clearing,Clearing,moyenne,brouillon,kamtok
+Confirmation de paiement,Payment confirmation,Payment confirmation,moyenne,brouillon,kamtok
+Débit direct,Direct debit,Direct debit,moyenne,brouillon,kamtok
+Délai de règlement,Settlement time,Settlement time,moyenne,brouillon,kamtok
+Distributeur automatique de billets (DAB),Automated teller machine (ATM),ATM,moyenne,brouillon,kamtok
+Émetteur,Issuer,Issuer,moyenne,brouillon,kamtok
+Fournisseur de services de paiement (FSP),Payment service provider (PSP),Payment provider,moyenne,brouillon,kamtok
+Frais de transaction,Transaction fee,Transaction fee,moyenne,brouillon,kamtok
+Identifiant de paiement,Payment identifier,Payment ID,moyenne,brouillon,kamtok
+Interopérabilité,Interoperability,System connection,moyenne,brouillon,kamtok
+Jetonisation (tokenisation),Tokenization,Tokenisation,moyenne,brouillon,kamtok
+KYC (connaissance du client),Know your customer (KYC),KYC,moyenne,brouillon,kamtok
+Lutte contre le blanchiment (LBC),Anti-money laundering (AML),Anti-money laundering,moyenne,brouillon,kamtok
+Marchand,Merchant,Seller,moyenne,brouillon,kamtok
+Monnaie mobile,Mobile money,Mobile money,moyenne,brouillon,kamtok
+NFC,Near-field communication (NFC),NFC,moyenne,brouillon,kamtok
+Paiement à distance,Remote payment,Remote payment,moyenne,brouillon,kamtok
+Paiement en ligne,Online payment,Online payment,moyenne,brouillon,kamtok
+Paiement marchand,Merchant payment,Merchant payment,moyenne,brouillon,kamtok
+Paiement sans contact,Contactless payment,Contactless payment,moyenne,brouillon,kamtok
+Paiement instantané,Instant payment,Instant payment,moyenne,brouillon,kamtok
+Paiement récurrent,Recurring payment,Recurring payment,moyenne,brouillon,kamtok
+Payeur,Payer,Payer,moyenne,brouillon,kamtok
+Portefeuille électronique,Electronic wallet,E-wallet,moyenne,brouillon,kamtok
+QR code,QR code,QR code,moyenne,brouillon,kamtok
+Règlement,Settlement,Settlement,moyenne,brouillon,kamtok
+Remboursement de paiement,Payment refund,Refund,moyenne,brouillon,kamtok
+Réseau de paiement,Payment network,Payment network,moyenne,brouillon,kamtok
+Référence de transaction,Transaction reference,Transaction ID,moyenne,brouillon,kamtok
+Réversibilité,Reversibility,Reversal,moyenne,brouillon,kamtok
+Système de paiement,Payment system,Payment system,moyenne,brouillon,kamtok
+Terminal de paiement électronique (TPE),Point-of-sale (POS) terminal,POS terminal,moyenne,brouillon,kamtok
+Transfert de fonds,Funds transfer,Fund transfer,moyenne,brouillon,kamtok
+Transfert de portefeuille à portefeuille,Wallet-to-wallet transfer,Wallet transfer,moyenne,brouillon,kamtok
+USSD,USSD,USSD,moyenne,brouillon,kamtok
+Vérification du bénéficiaire,Beneficiary verification,Check receiver,moyenne,brouillon,kamtok
+Virement de compte à compte,Account-to-account transfer,Account transfer,moyenne,brouillon,kamtok
+Paiement push,Push payment,Push payment,moyenne,brouillon,kamtok
+Paiement pull,Pull payment,Pull payment,moyenne,brouillon,kamtok
+Paiement transfrontalier,Cross-border payment,Cross-border payment,moyenne,brouillon,kamtok
+Paiement gouvernement-personne (G2P),Government-to-person (G2P) payment,G2P payment,moyenne,brouillon,kamtok
+Paiement personne-gouvernement (P2G),Person-to-government (P2G) payment,P2G payment,moyenne,brouillon,kamtok
+Paiement personne-personne (P2P),Person-to-person (P2P) payment,P2P payment,moyenne,brouillon,kamtok
+Paiement entreprise-entreprise (B2B),Business-to-business (B2B) payment,B2B payment,moyenne,brouillon,kamtok
+Paiement entreprise-personne (B2P),Business-to-person (B2P) payment,B2P payment,moyenne,brouillon,kamtok
+Paiement personne-entreprise (P2B),Person-to-business (P2B) payment,P2B payment,moyenne,brouillon,kamtok
+Rapprochement,Reconciliation,Reconciliation,moyenne,brouillon,kamtok
+Litige de paiement,Payment dispute,Payment dispute,moyenne,brouillon,kamtok
+Rétrofacturation (chargeback),Chargeback,Chargeback,moyenne,brouillon,kamtok
+Échec de paiement,Payment failure,Payment failure,moyenne,brouillon,kamtok
+Paiement en attente,Pending payment,Pending payment,moyenne,brouillon,kamtok
+Paiement refusé,Declined payment,Declined payment,moyenne,brouillon,kamtok
+Paiement expiré,Expired payment,Expired payment,moyenne,brouillon,kamtok
+Plafond de transaction,Transaction cap,Transaction limit,moyenne,brouillon,kamtok
+Limite journalière,Daily limit,Daily limit,moyenne,brouillon,kamtok
+Solde disponible,Available balance,Available balance,moyenne,brouillon,kamtok
+Solde comptable,Ledger balance,Ledger balance,moyenne,brouillon,kamtok
+Fonds bloqués,Blocked funds,Blocked funds,moyenne,brouillon,kamtok
+Compte dormant,Dormant account,Inactive account,moyenne,brouillon,kamtok
+Authentification forte,Strong authentication,Strong authentication,moyenne,brouillon,kamtok
+Code OTP,One-time password (OTP),OTP code,moyenne,brouillon,kamtok
+PIN,Personal identification number (PIN),PIN,moyenne,brouillon,kamtok
+Hameçonnage (phishing),Phishing,Phishing,moyenne,brouillon,kamtok
+Fraude au paiement autorisé,Authorized push payment (APP) fraud,Authorized payment scam,moyenne,brouillon,kamtok
+Dispositif de recours,Redress mechanism,Complaint process,moyenne,brouillon,kamtok
+Réclamation,Complaint,Complaint,moyenne,brouillon,kamtok
+Accueil,Home,Home,moyenne,brouillon,kamtok
+Se connecter,Log in,Log in,moyenne,brouillon,kamtok
+Créer un compte,Create an account,Create account,moyenne,brouillon,kamtok
+S'inscrire,Sign up,Sign up,moyenne,brouillon,kamtok
+Se déconnecter,Log out,Log out,moyenne,brouillon,kamtok
+Profil,Profile,Profile,moyenne,brouillon,kamtok
+Paramètres,Settings,Settings,moyenne,brouillon,kamtok
+Tableau de bord,Dashboard,Dashboard,moyenne,brouillon,kamtok
+Compte,Account,Account,moyenne,brouillon,kamtok
+Numéro de compte,Account number,Account number,moyenne,brouillon,kamtok
+Numéro de téléphone,Phone number,Phone number,moyenne,brouillon,kamtok
+Adresse e-mail,Email address,Email address,moyenne,brouillon,kamtok
+Solde,Balance,Balance,moyenne,brouillon,kamtok
+Historique,History,History,moyenne,brouillon,kamtok
+Détails de la transaction,Transaction details,Transaction details,moyenne,brouillon,kamtok
+Nouvelle transaction,New transaction,New transaction,moyenne,brouillon,kamtok
+Envoyer de l'argent,Send money,Send money,moyenne,brouillon,kamtok
+Recevoir de l'argent,Receive money,Receive money,moyenne,brouillon,kamtok
+Acheter du crédit,Buy airtime,Buy airtime,moyenne,brouillon,kamtok
+Payer une facture,Pay a bill,Pay bill,moyenne,brouillon,kamtok
+Recharger,Top up,Top up,moyenne,brouillon,kamtok
+Retirer,Withdraw,Withdraw,moyenne,brouillon,kamtok
+Déposer,Deposit,Deposit,moyenne,brouillon,kamtok
+Ajouter un bénéficiaire,Add beneficiary,Add receiver,moyenne,brouillon,kamtok
+Modifier un bénéficiaire,Edit beneficiary,Edit receiver,moyenne,brouillon,kamtok
+Supprimer un bénéficiaire,Delete beneficiary,Remove receiver,moyenne,brouillon,kamtok
+Montant,Amount,Amount,moyenne,brouillon,kamtok
+Saisir le montant,Enter amount,Enter amount,moyenne,brouillon,kamtok
+Montant minimum,Minimum amount,Minimum amount,moyenne,brouillon,kamtok
+Montant maximum,Maximum amount,Maximum amount,moyenne,brouillon,kamtok
+Frais,Fee,Fee,moyenne,brouillon,kamtok
+Total à payer,Total due,Total to pay,moyenne,brouillon,kamtok
+Devise,Currency,Currency,moyenne,brouillon,kamtok
+Motif,Purpose,Reason,moyenne,brouillon,kamtok
+Référence,Reference,Reference,moyenne,brouillon,kamtok
+Date,Date,Date,moyenne,brouillon,kamtok
+Heure,Time,Time,moyenne,brouillon,kamtok
+Confirmer,Confirm,Confirm,moyenne,brouillon,kamtok
+Annuler,Cancel,Cancel,moyenne,brouillon,kamtok
+Retour,Back,Back,moyenne,brouillon,kamtok
+Continuer,Continue,Continue,moyenne,brouillon,kamtok
+Suivant,Next,Next,moyenne,brouillon,kamtok
+Précédent,Previous,Previous,moyenne,brouillon,kamtok
+Réessayer,Retry,Try again,moyenne,brouillon,kamtok
+Fermer,Close,Close,moyenne,brouillon,kamtok
+Enregistrer,Save,Save,moyenne,brouillon,kamtok
+Modifier,Edit,Edit,moyenne,brouillon,kamtok
+Rechercher,Search,Search,moyenne,brouillon,kamtok
+Filtrer,Filter,Filter,moyenne,brouillon,kamtok
+Trier,Sort,Sort,moyenne,brouillon,kamtok
+Télécharger,Download,Download,moyenne,brouillon,kamtok
+Partager,Share,Share,moyenne,brouillon,kamtok
+Imprimer,Print,Print,moyenne,brouillon,kamtok
+Reçu,Receipt,Receipt,moyenne,brouillon,kamtok
+Télécharger le reçu,Download receipt,Download receipt,moyenne,brouillon,kamtok
+Opération réussie,Successful transaction,Successful,moyenne,brouillon,kamtok
+Opération échouée,Failed transaction,Failed,moyenne,brouillon,kamtok
+En cours de traitement,Processing,Processing,moyenne,brouillon,kamtok
+En attente,Pending,Pending,moyenne,brouillon,kamtok
+Opération annulée,Cancelled transaction,Cancelled,moyenne,brouillon,kamtok
+Solde insuffisant,Insufficient balance,Not enough money,moyenne,brouillon,kamtok
+Numéro invalide,Invalid number,Invalid number,moyenne,brouillon,kamtok
+Champ obligatoire,Required field,Required field,moyenne,brouillon,kamtok
+Code incorrect,Incorrect code,Wrong code,moyenne,brouillon,kamtok
+Code expiré,Expired code,Expired code,moyenne,brouillon,kamtok
+Session expirée,Session expired,Session expired,moyenne,brouillon,kamtok
+Connexion interrompue,Connection interrupted,Connection lost,moyenne,brouillon,kamtok
+Service indisponible,Service unavailable,Service unavailable,moyenne,brouillon,kamtok
+Une erreur est survenue,An error occurred,An error occurred,moyenne,brouillon,kamtok
+Vérifiez les informations,Check the information,Check details,moyenne,brouillon,kamtok
+Vérifiez le numéro du bénéficiaire,Verify beneficiary number,Check receiver number,moyenne,brouillon,kamtok
+Ne partagez jamais votre code PIN,Never share your PIN,Keep PIN secret,moyenne,brouillon,kamtok
+Ne communiquez jamais votre code OTP,Never share your OTP,Keep OTP secret,moyenne,brouillon,kamtok
+Compte bloqué,Blocked account,Blocked account,moyenne,brouillon,kamtok
+Accès refusé,Access denied,Access denied,moyenne,brouillon,kamtok
+Tentatives restantes,Remaining attempts,Attempts left,moyenne,brouillon,kamtok
+Avertissement,Warning,Warning,moyenne,brouillon,kamtok
+Notification,Notification,Notification,moyenne,brouillon,kamtok
+Autoriser,Allow,Allow,moyenne,brouillon,kamtok
+Refuser,Reject,Decline,moyenne,brouillon,kamtok
+Activer,Enable,Turn on,moyenne,brouillon,kamtok
+Désactiver,Disable,Turn off,moyenne,brouillon,kamtok
+Langue,Language,Language,moyenne,brouillon,kamtok
+Accessibilité,Accessibility,Accessibility,moyenne,brouillon,kamtok
+Lire à voix haute,Read aloud,Read aloud,moyenne,brouillon,kamtok
+Agrandir le texte,Increase text size,Larger text,moyenne,brouillon,kamtok
+Contraste élevé,High contrast,High contrast,moyenne,brouillon,kamtok
+Sous-titres,Subtitles,Captions,moyenne,brouillon,kamtok
+Aide,Help,Help,moyenne,brouillon,kamtok
+Assistance,Assistance,Support,moyenne,brouillon,kamtok
+Service client,Customer service,Customer care,moyenne,brouillon,kamtok
+Contacter le support,Contact support,Contact support,moyenne,brouillon,kamtok
+Confidentialité,Privacy,Privacy,moyenne,brouillon,kamtok
+Conditions d'utilisation,Terms of use,Terms of use,moyenne,brouillon,kamtok
+Politique de confidentialité,Privacy policy,Privacy policy,moyenne,brouillon,kamtok
+Déclaration de fraude,Report fraud,Report fraud,moyenne,brouillon,kamtok
+Signaler un problème,Report a problem,Report a problem,moyenne,brouillon,kamtok
+Transfert,Transfer,Transfer,moyenne,brouillon,kamtok
+Actif,Asset,Asset,moyenne,brouillon,kamtok
+Actif financier,Financial asset,Financial asset,moyenne,brouillon,kamtok
+Amortissement,Amortization,Amortization,moyenne,brouillon,kamtok
+Analyse financière,Financial analysis,Financial analysis,moyenne,brouillon,kamtok
+Annuité,Annuity / regular payment,Regular payment,moyenne,brouillon,kamtok
+Apport,Contribution / capital contribution,Contribution,moyenne,brouillon,kamtok
+Arriéré,Overdue payment,Overdue payment,moyenne,brouillon,kamtok
+Avoir,Credit balance / amount owed to you,Credit balance,moyenne,brouillon,kamtok
+Balance comptable,Trial balance,Trial balance,moyenne,brouillon,kamtok
+Banque,Bank,Bank,moyenne,brouillon,kamtok
+Banque centrale,Central bank,Central bank,moyenne,brouillon,kamtok
+Bénéfice,Profit,Profit,moyenne,brouillon,kamtok
+Billet de banque,Banknote,Paper moni,moyenne,brouillon,kamtok
+Bilan,Balance sheet,Balance sheet,moyenne,brouillon,kamtok
+Capital,Capital,Capital,moyenne,brouillon,kamtok
+Capitalisation,Capitalization,Capitalization,moyenne,brouillon,kamtok
+Caution,Guarantor / guarantee,Guarantor,moyenne,brouillon,kamtok
+Change,Currency exchange,Currency exchange,moyenne,brouillon,kamtok
+Charge,Expense / charge,Business cost,moyenne,brouillon,kamtok
+Chèque,Cheque,Cheque,moyenne,brouillon,kamtok
+Chiffre d'affaires,Turnover / sales revenue,Sales,moyenne,brouillon,kamtok
+Comptabilité,Accounting,Accounting,moyenne,brouillon,kamtok
+Compte bancaire,Bank account,Bank account,moyenne,brouillon,kamtok
+Compte courant,Current account,Current account,moyenne,brouillon,kamtok
+Compte d'épargne,Savings account,Savings account,moyenne,brouillon,kamtok
+Compte de dépôt,Deposit account,Deposit account,moyenne,brouillon,kamtok
+Créance,Debt claim / money someone owes you,Debt owed to you,moyenne,brouillon,kamtok
+Crédit,Loan / credit,Credit,moyenne,brouillon,kamtok
+Créditeur,In credit / positive balance,Credit balance,moyenne,brouillon,kamtok
+Débiteur,Debtor,Debtor,moyenne,brouillon,kamtok
+Débit,Debit / money taken from account,Debit,moyenne,brouillon,kamtok
+Déficit,Deficit / shortfall,Shortfall,moyenne,brouillon,kamtok
+Dépense,Expense / spending,Expense,moyenne,brouillon,kamtok
+Dépôt,Deposit,Deposit,moyenne,brouillon,kamtok
+Dividende,Dividend,Dividend,moyenne,brouillon,kamtok
+Échéance,Due date,Due date,moyenne,brouillon,kamtok
+Économie,Economics,Economics,moyenne,brouillon,kamtok
+Épargne,Savings,Savings,moyenne,brouillon,kamtok
+Escompte,Discount / discounting,Discount,moyenne,brouillon,kamtok
+Fonds,Funds,Funds,moyenne,brouillon,kamtok
+Fonds propres,Equity / own funds,Owner's funds,moyenne,brouillon,kamtok
+Garantie,Guarantee / security,Guarantee,moyenne,brouillon,kamtok
+Inflation,Inflation,Price rise,moyenne,brouillon,kamtok
+Intérêt,Interest,Interest,moyenne,brouillon,kamtok
+Investissement,Investment,Investment,moyenne,brouillon,kamtok
+Liquidité,Liquidity,Cash access,moyenne,brouillon,kamtok
+Monnaie,Money / currency,Moni,moyenne,brouillon,kamtok
+Monnaie fiduciaire,Cash / physical money,Cash,moyenne,brouillon,kamtok
+Monnaie scripturale,Bank deposit money / account money,Bank money,moyenne,brouillon,kamtok
+Monnaie électronique,Electronic money,Electronic moni,moyenne,brouillon,kamtok
+Montant principal,Principal amount,Principal,moyenne,brouillon,kamtok
+Obligation,Bond / obligation,Bond,moyenne,brouillon,kamtok
+Opération financière,Financial transaction,Transaction,moyenne,brouillon,kamtok
+Passif,Liability,Liability,moyenne,brouillon,kamtok
+Patrimoine,Assets and liabilities / wealth,Assets and debts,moyenne,brouillon,kamtok
+Pénalité,Penalty / fine,Penalty,moyenne,brouillon,kamtok
+Placement,Investment / financial placement,Investment,moyenne,brouillon,kamtok
+Politique monétaire,Monetary policy,Monetary policy,moyenne,brouillon,kamtok
+Pouvoir d'achat,Purchasing power,Buying power,moyenne,brouillon,kamtok
+Prélèvement,Deduction / direct debit,Direct debit,moyenne,brouillon,kamtok
+Prêt,Loan,Loan,moyenne,brouillon,kamtok
+Produit financier,Financial product,Financial product,moyenne,brouillon,kamtok
+Provision,Provision,Reserve,moyenne,brouillon,kamtok
+Remboursement,Repayment / refund,Repayment,moyenne,brouillon,kamtok
+Rendement,Return / yield,Return,moyenne,brouillon,kamtok
+Revenu,Income,Income,moyenne,brouillon,kamtok
+Risque de crédit,Credit risk,Credit risk,moyenne,brouillon,kamtok
+Solvabilité,Solvency,Solvency,moyenne,brouillon,kamtok
+Taux d'intérêt,Interest rate,Interest rate,moyenne,brouillon,kamtok
+Taux de change,Exchange rate,Exchange rate,moyenne,brouillon,kamtok
+Trésorerie,Cash position / treasury,Cash flow,moyenne,brouillon,kamtok
+Valeur nominale,Nominal value / face value,Face value,moyenne,brouillon,kamtok
+Virement,Bank transfer,Transfer,moyenne,brouillon,kamtok
+Franc CFA,CFA franc,CFA moni,moyenne,brouillon,kamtok
+CEMAC,CEMAC,CEMAC,moyenne,brouillon,kamtok
+BEAC,BEAC,BEAC,moyenne,brouillon,kamtok
+COBAC,COBAC,COBAC,moyenne,brouillon,kamtok
+Microfinance,Microfinance,Microfinance,moyenne,brouillon,kamtok
+Inclusion financière,Financial inclusion,Financial inclusion,moyenne,brouillon,kamtok
+Transfert d'argent,Money transfer,Transfa mone,moyenne,brouillon,brouillon
+Transfert national,Domestic transfer,Transfa insai di kontri,moyenne,brouillon,brouillon
+Transfert international,International transfer,Transfa go oda kontri,moyenne,brouillon,brouillon
+Transfert entrant,Incoming transfer,Mone wey de kam fo yu,moyenne,brouillon,brouillon
+Transfert sortant,Outgoing transfer,Mone wey de go out fo yu,moyenne,brouillon,brouillon
+Transfert interne,Internal transfer,Transfa insai di same sevis,faible,brouillon,brouillon
+Transfert interopérateur,Cross-operator transfer,Transfa fo wan oparetor go oda oparetor,faible,brouillon,brouillon
+Transfert interbancaire,Interbank transfer,Transfa fo wan bank go oda bank,moyenne,brouillon,brouillon
+Retrait,Withdrawal,Tek mone out,moyenne,brouillon,brouillon
+Retrait d'espèces,Cash withdrawal,Tek kash out,moyenne,brouillon,brouillon
+Retrait sans carte,Cardless withdrawal,Tek kash out witout kad,moyenne,brouillon,brouillon
+Dépôt d'espèces,Cash deposit,Put kash,moyenne,brouillon,brouillon
+Versement,Payment into an account,Put mone insai,moyenne,brouillon,brouillon
+Encaissement,Collection / receipt of payment,Receive di mone,faible,brouillon,brouillon
+Décaissement,Disbursement,Gi out di mone,faible,brouillon,brouillon
+Paiement,Payment,Pe,moyenne,brouillon,brouillon
+Règlement de facture,Bill payment,Pe di bil,moyenne,brouillon,brouillon
+Achat de crédit téléphonique,Airtime purchase,Bai fon kredit,moyenne,brouillon,brouillon
+Recharge de portefeuille,Wallet top-up,Put mone fo wallet,moyenne,brouillon,brouillon
+Recharge de compte,Account top-up,Put mone fo akaunt,moyenne,brouillon,brouillon
+Collecte de fonds,Fundraising / collection,Gada mone,moyenne,brouillon,brouillon
+Paiement groupé,Batch payment,Pe fo plenti pesin wan taim,faible,brouillon,brouillon
+Paiement de masse,Bulk payment,Pe fo plenti pesin,faible,brouillon,brouillon
+Ordre de paiement,Payment order,Instrukshon fo pe,faible,brouillon,brouillon
+Ordre permanent,Standing order,Instrukshon fo pe evri taim,faible,brouillon,brouillon
+Prélèvement automatique,Automatic debit,Dem de tek mone out by demsef,moyenne,brouillon,brouillon
+Virement permanent,Standing transfer,Transfa wey de go evri taim,faible,brouillon,brouillon
+Virement ponctuel,One-off transfer,Transfa fo wan taim,moyenne,brouillon,brouillon
+Virement différé,Scheduled transfer,Transfa fo leta dei,moyenne,brouillon,brouillon
+Virement instantané,Instant transfer,Transfa wey de go sote,moyenne,brouillon,brouillon
+Annulation de transaction,Transaction cancellation,Kansel di transaction,moyenne,brouillon,brouillon
+Rappel de fonds,Funds recall,Aks fo bring bak di mone wey yu send,faible,brouillon,brouillon
+Retour de fonds,Funds return,Di mone don kam bak,moyenne,brouillon,brouillon
+Transaction inversée,Reversed transaction,Dem don turn bak di transaction,faible,brouillon,brouillon
+Remboursement partiel,Partial refund,Gi bak wan part fo di mone,moyenne,brouillon,brouillon
+Remboursement total,Full refund,Gi bak ol di mone,moyenne,brouillon,brouillon
+Paiement fractionné,Instalment payment,Pe fo pat pat,moyenne,brouillon,brouillon
+Paiement différé,Deferred payment,Pe fo leta,moyenne,brouillon,brouillon
+Paiement à échéance,Payment on due date,Pe fo di dei wey dem set,moyenne,brouillon,brouillon
+Paiement rejeté,Rejected payment,Dem no accept di pe,moyenne,brouillon,brouillon
+Paiement en double,Duplicate payment,Yu pe two taim,moyenne,brouillon,brouillon
+Paiement en trop,Overpayment,Yu pe pass di mone wey yu fo pe,moyenne,brouillon,brouillon
+Paiement incomplet,Incomplete payment,Di mone wey yu pe no naf,moyenne,brouillon,brouillon
+Ouverture de compte,Account opening,Opin akaunt,moyenne,brouillon,brouillon
+Fermeture de compte,Account closure,Kloz akaunt,moyenne,brouillon,brouillon
+Blocage de compte,Account blocking,Lok akaunt,moyenne,brouillon,brouillon
+Déblocage de compte,Account unblocking,Opin di akaunt wey dem lok,moyenne,brouillon,brouillon
+Gel de fonds,Funds freeze,Dem lok di mone,faible,brouillon,brouillon
+Compte actif,Active account,Akaunt wey de wok,moyenne,brouillon,brouillon
+Compte inactif,Inactive account,Akaunt wey no de wok,moyenne,brouillon,brouillon
+Compte principal,Main account,Main akaunt,moyenne,brouillon,brouillon
+Compte secondaire,Secondary account,Sekondri akaunt,moyenne,brouillon,brouillon
+Compte joint,Joint account,Akaunt fo two pesin ansa mo,moyenne,brouillon,brouillon
+Compte professionnel,Business account,Bizinis akaunt,moyenne,brouillon,brouillon
+Compte personnel,Personal account,Yu yon akaunt,moyenne,brouillon,brouillon
+Titulaire du compte,Account holder,Di owna fo di akaunt,moyenne,brouillon,brouillon
+Co-titulaire,Joint holder,Di oda owna fo di akaunt,moyenne,brouillon,brouillon
+Solde créditeur,Credit balance,Yu get mone fo akaunt,faible,brouillon,brouillon
+Solde débiteur,Debit balance,Yu owe mone fo akaunt,faible,brouillon,brouillon
+Découvert,Overdraft,Akaunt don go minus,faible,brouillon,brouillon
+Découvert autorisé,Authorized overdraft,Dem allow yu go minus fo akaunt,faible,brouillon,brouillon
+Historique des opérations,Transaction history,Histri fo ol di transaction dem,moyenne,brouillon,brouillon
+Relevé de compte,Account statement,Akaunt stetment,moyenne,brouillon,brouillon
+Mini-relevé,Mini statement,Smol stetment,moyenne,brouillon,brouillon
+Date de valeur,Value date,Dei wey di mone de wok,faible,brouillon,brouillon
+Date d'opération,Transaction date,Dei fo di transaction,moyenne,brouillon,brouillon
+Date de comptabilisation,Booking date,Dei wey dem rayt am fo di buk,faible,brouillon,brouillon
+Solde prévisionnel,Projected balance,Balans wey yu go get afta,faible,brouillon,brouillon
+Solde minimum,Minimum balance,Di smol balans wey yu fo get,moyenne,brouillon,brouillon
+Solde maximum,Maximum balance,Di big balans wey yu fit get,moyenne,brouillon,brouillon
+Plafond de compte,Account limit,Di mos mone wey akaunt fit get,moyenne,brouillon,brouillon
+Compte séquestre,Escrow account,Akaunt wey pesin de hol di mone,faible,brouillon,brouillon
+Compte de cantonnement,Safeguarding account,Akaunt wey dem separate fo protekt di mone,faible,brouillon,brouillon
+Commission,Commission,Komishon,moyenne,brouillon,brouillon
+Frais fixes,Fixed fees,Mone wey no de chenj,moyenne,brouillon,brouillon
+Frais variables,Variable fees,Mone wey de chenj,moyenne,brouillon,brouillon
+Frais de retrait,Withdrawal fee,Mone fo tek mone out,moyenne,brouillon,brouillon
+Frais de dépôt,Deposit fee,Mone fo put mone,moyenne,brouillon,brouillon
+Frais de transfert,Transfer fee,Mone fo transfa,moyenne,brouillon,brouillon
+Frais de réception,Receiving fee,Mone fo receive mone,moyenne,brouillon,brouillon
+Frais de tenue de compte,Account maintenance fee,Mone fo kip akaunt,moyenne,brouillon,brouillon
+Frais de gestion,Management fee,Mone fo manej,moyenne,brouillon,brouillon
+Frais de service,Service fee,Mone fo di sevis,moyenne,brouillon,brouillon
+Frais de réseau,Network fee,Mone fo netwok,moyenne,brouillon,brouillon
+Frais de conversion,Conversion fee,Mone fo chenj mone,moyenne,brouillon,brouillon
+Taxe,Tax,Taks,moyenne,brouillon,brouillon
+Taxe sur transaction,Transaction tax,Taks fo transaction,moyenne,brouillon,brouillon
+TVA,VAT,TVA,elevee,brouillon,brouillon
+Montant hors taxes (HT),Amount excluding tax,Mone witout taks,moyenne,brouillon,brouillon
+Montant toutes taxes comprises (TTC),Amount including tax,Mone wit taks insai,moyenne,brouillon,brouillon
+Tarif,Rate / price,Prais,moyenne,brouillon,brouillon
+Gratuit,Free,Fri,moyenne,brouillon,brouillon
+Taux de commission,Commission rate,Komishon rate,moyenne,brouillon,brouillon
+Frais minimum,Minimum fee,Di smol mone fo di sevis,moyenne,brouillon,brouillon
+Frais maximum,Maximum fee,Di big mone fo di sevis,moyenne,brouillon,brouillon
+Barème tarifaire,Fee schedule,Lis fo ol di prais dem,moyenne,brouillon,brouillon
+Carte de débit,Debit card,Debit kad,moyenne,brouillon,brouillon
+Carte de crédit,Credit card,Kredit kad,moyenne,brouillon,brouillon
+Carte virtuelle,Virtual card,Virtual kad,moyenne,brouillon,brouillon
+Carte expirée,Expired card,Di kad don expire,moyenne,brouillon,brouillon
+Carte bloquée,Blocked card,Dem don lok di kad,moyenne,brouillon,brouillon
+Code CVV/CVC,CVV/CVC code,CVV kod,elevee,brouillon,brouillon
+Date d'expiration,Expiry date,Dei wey di kad go expire,moyenne,brouillon,brouillon
+Porte-monnaie électronique,E-wallet,Elektronik wallet,moyenne,brouillon,brouillon
+Application bancaire mobile,Mobile banking app,Bank app fo fon,moyenne,brouillon,brouillon
+Banque en ligne,Online banking,Bank fo internet,moyenne,brouillon,brouillon
+Banque à distance,Remote banking,Bank wey yu no need go fo bank,moyenne,brouillon,brouillon
+Mobile banking,Mobile banking,Mobile banking,moyenne,brouillon,brouillon
+Mobile money,Mobile money,Mobile mone,moyenne,brouillon,brouillon
+Agent de monnaie électronique,Mobile money agent,Mobile mone ejent,moyenne,brouillon,brouillon
+Point de service,Service point,Place wey dem de do di wok,moyenne,brouillon,brouillon
+Point de vente,Point of sale,Shop ansa place fo sel,moyenne,brouillon,brouillon
+Agence bancaire,Bank branch,Bank branch,moyenne,brouillon,brouillon
+Guichet,Counter,Kaunta,moyenne,brouillon,brouillon
+GAB,ATM,GAB (ATM masheen),moyenne,brouillon,brouillon
+TPE,POS terminal,TPE (masheen fo pe),moyenne,brouillon,brouillon
+Code marchand,Merchant code,Kod fo di shop,moyenne,brouillon,brouillon
+Identifiant agent,Agent ID,Nomba fo di ejent,moyenne,brouillon,brouillon
+Agrément,Licence / approval,Ofishal pemishon,faible,brouillon,brouillon
+Établissement de paiement,Payment institution,Kompani wey get pemishon fo pe sevis,faible,brouillon,brouillon
+Établissement de monnaie électronique,E-money institution,Kompani wey get pemishon fo elektronik mone,faible,brouillon,brouillon
+Prestataire de services de paiement,Payment service provider,Kompani wey de gi pe sevis,moyenne,brouillon,brouillon
+Opérateur de transfert d'argent,Money transfer operator,Kompani wey de transfa mone,moyenne,brouillon,brouillon
+Distributeur,Distributor,Pesin wey de distribiut di sevis,faible,brouillon,brouillon
+Sous-agent,Sub-agent,Ejent wey de wok fo anoda ejent,faible,brouillon,brouillon
+Demande de prêt,Loan request,Aks fo lon,moyenne,brouillon,brouillon
+Emprunteur,Borrower,Pesin wey tek lon,moyenne,brouillon,brouillon
+Prêteur,Lender,Pesin wey gi lon,moyenne,brouillon,brouillon
+Capital restant dû,Outstanding principal,Mone wey yu still owe,moyenne,brouillon,brouillon
+Échéancier,Repayment schedule,Lis fo di dei dem wey yu go pe,moyenne,brouillon,brouillon
+Mensualité,Monthly instalment,Mone wey yu de pe evri mont,moyenne,brouillon,brouillon
+Remboursement anticipé,Early repayment,Pe bifo di taim,moyenne,brouillon,brouillon
+Retard de paiement,Late payment,Yu lat fo pe,moyenne,brouillon,brouillon
+Défaut de paiement,Payment default,Yu no pe wetin yu owe,moyenne,brouillon,brouillon
+Période de grâce,Grace period,Taim wey dem gi yu fo pe wit no penalti,faible,brouillon,brouillon
+Taux fixe,Fixed rate,Rate wey no de chenj,moyenne,brouillon,brouillon
+Taux variable,Variable rate,Rate wey de chenj,moyenne,brouillon,brouillon
+Taux annuel effectif global (TAEG),Annual percentage rate (APR),Di ol rate fo di yia (TAEG),faible,brouillon,brouillon
+Garantie financière,Financial guarantee,Garanti fo di mone,faible,brouillon,brouillon
+Hypothèque,Mortgage,Mogej,faible,brouillon,brouillon
+Nantissement,Pledge,Tin wey yu put fo garanti,faible,brouillon,brouillon
+Cautionnement,Surety,Pesin wey promis se e go pe if yu no pe,faible,brouillon,brouillon
+Épargne programmée,Scheduled savings,Sev mone evri taim wey yu set,moyenne,brouillon,brouillon
+Objectif d'épargne,Savings goal,Di mone wey yu wan sev,moyenne,brouillon,brouillon
+Tontine,Tontine,Njangi / Tontin,moyenne,brouillon,brouillon
+Cotisation,Contribution,Mone wey yu de put fo di grup,moyenne,brouillon,brouillon
+Authentification à deux facteurs,Two-factor authentication,Two wei fo pruv se na yu,faible,brouillon,brouillon
+Biométrie,Biometrics,Fingapring ansa fes chek,faible,brouillon,brouillon
+Empreinte digitale,Fingerprint,Fingapring,moyenne,brouillon,brouillon
+Reconnaissance faciale,Face recognition,Fes chek,moyenne,brouillon,brouillon
+Code de validation,Verification code,Kod fo konfam,moyenne,brouillon,brouillon
+Appareil de confiance,Trusted device,Fon wey dem sabi se na yu yon,moyenne,brouillon,brouillon
+Appareil inconnu,Unknown device,Fon wey dem no sabi,moyenne,brouillon,brouillon
+Tentative de connexion,Login attempt,Try fo go insai,moyenne,brouillon,brouillon
+Connexion suspecte,Suspicious login,Pesin try go insai wey no clear,moyenne,brouillon,brouillon
+Limite de tentatives,Attempt limit,Di mos chans wey yu get,moyenne,brouillon,brouillon
+Code secret,Secret code,Sikret kod,moyenne,brouillon,brouillon
+Mot de passe oublié,Forgot password,Yu don forget yu pasword,moyenne,brouillon,brouillon
+Réinitialisation du PIN,PIN reset,Chenj yu PIN,moyenne,brouillon,brouillon
+Vérification d'identité,Identity verification,Chek se na yu,moyenne,brouillon,brouillon
+Pièce d'identité,ID document,Aidi kad,moyenne,brouillon,brouillon
+Justificatif de domicile,Proof of address,Pepa wey de show weh yu de liv,moyenne,brouillon,brouillon
+Bénéficiaire effectif,Beneficial owner,Di rial owna fo di mone,faible,brouillon,brouillon
+Lutte contre le blanchiment de capitaux,Anti-money laundering,Fait against dirty mone wash,faible,brouillon,brouillon
+Financement du terrorisme,Terrorism financing,Gi mone fo teroris dem,moyenne,brouillon,brouillon
+Surveillance des transactions,Transaction monitoring,Luk di transaction dem fo si if dem no clear,faible,brouillon,brouillon
+Seuil de déclaration,Reporting threshold,Di mone wey dem go report,faible,brouillon,brouillon
+Sanctions financières,Financial sanctions,Mone sanshon dem,faible,brouillon,brouillon
+Données sensibles,Sensitive data,Info wey yu no fo show anybodi,moyenne,brouillon,brouillon
+Chiffrement,Encryption,Lok di info,faible,brouillon,brouillon
+Code malveillant,Malicious code,Bad kod wey de spoil fon,moyenne,brouillon,brouillon
+Usurpation d'identité,Identity theft,Pesin de yus yu nem fo tif,moyenne,brouillon,brouillon
+Arnaque,Scam,Skam / 419,moyenne,brouillon,brouillon
+Fraude,Fraud,Tif / Fraud,moyenne,brouillon,brouillon
+En cours,In progress,E de go,moyenne,brouillon,brouillon
+En attente de confirmation,Awaiting confirmation,De wait fo konfam,moyenne,brouillon,brouillon
+En attente de règlement,Awaiting settlement,"Dem don accept, but di mone neva rich",faible,brouillon,brouillon
+Traité,Processed,Dem don tek di wok,faible,brouillon,brouillon
+Exécuté,Executed,Dem don do di wok,faible,brouillon,brouillon
+Comptabilisé,Booked / recorded,Dem don rayt am fo di akaunt,faible,brouillon,brouillon
+Non traité,Not processed,Dem neva tek di wok,moyenne,brouillon,brouillon
+Expiré,Expired,Don expire,moyenne,brouillon,brouillon
+Rejeté,Rejected,Dem no accept,moyenne,brouillon,brouillon
+Annulé,Cancelled,Dem don kansel,moyenne,brouillon,brouillon
+En litige,Disputed,Dem de komplen fo am,moyenne,brouillon,brouillon
+Incident technique,Technical incident,Prablem fo di sistem,moyenne,brouillon,brouillon
+Panne de réseau,Network outage,Netwok don cut,moyenne,brouillon,brouillon
+Délai de traitement,Processing time,Taim wey e go tek,moyenne,brouillon,brouillon
+Délai de disponibilité,Availability delay,Taim wey di mone go tek fo kam,moyenne,brouillon,brouillon
+Indisponibilité temporaire,Temporary unavailability,Di sevis no de wok fo smol taim,moyenne,brouillon,brouillon
+Opération en double,Duplicate transaction,Di same transaction two taim,moyenne,brouillon,brouillon
+Erreur de destinataire,Recipient error,Mistek fo di pesin wey go receive,moyenne,brouillon,brouillon
+Erreur de montant,Amount error,Mistek fo di mone,moyenne,brouillon,brouillon
+Erreur de réseau,Network error,Mistek fo netwok,moyenne,brouillon,brouillon
+Référence introuvable,Reference not found,Dem no fit find di nomba,moyenne,brouillon,brouillon
+Preuve de paiement,Proof of payment,Pruf se yu pe,moyenne,brouillon,brouillon
+Justificatif de transaction,Transaction receipt,Risit fo di transaction,moyenne,brouillon,brouillon
+Numéro de suivi,Tracking number,Nomba fo fala di transaction,moyenne,brouillon,brouillon
+Solde avant opération,Balance before transaction,Balans bifo di transaction,moyenne,brouillon,brouillon
+Solde après opération,Balance after transaction,Balans afta di transaction,moyenne,brouillon,brouillon
+Montant à recevoir,Amount to receive,Di mone wey go kam,moyenne,brouillon,brouillon
+Montant envoyé,Amount sent,Di mone wey dem don send,moyenne,brouillon,brouillon
+Montant reçu,Amount received,Di mone wey dem don receive,moyenne,brouillon,brouillon
+Frais à la charge de l'expéditeur,Fees paid by sender,Di pesin wey send go pe di sevis mone,moyenne,brouillon,brouillon
+Frais à la charge du bénéficiaire,Fees paid by recipient,Di pesin wey go receive go pe di sevis mone,moyenne,brouillon,brouillon
+Choisir le mode de paiement,Choose payment method,Pik di wei fo pe,moyenne,brouillon,brouillon
+Mode de paiement,Payment method,Wei fo pe,moyenne,brouillon,brouillon
+Source des fonds,Source of funds,Weh di mone de kam fo,moyenne,brouillon,brouillon
+Compte de destination,Destination account,Di akaunt wey di mone go go,moyenne,brouillon,brouillon
+Numéro du destinataire,Recipient number,Nomba fo di pesin wey go receive,moyenne,brouillon,brouillon
+Nom du bénéficiaire,Beneficiary name,Nem fo di pesin wey go receive,moyenne,brouillon,brouillon
+Vérifier avant d'envoyer,Check before sending,Chek bifo yu send,moyenne,brouillon,brouillon
+Êtes-vous sûr de vouloir continuer ?,Are you sure you want to continue?,Yu sure se yu wan kontinu?,moyenne,brouillon,brouillon
+Cette opération est irréversible,This operation cannot be undone,Yu no fit turn bak dis wok afta,moyenne,brouillon,brouillon
+Votre compte sera débité de,Your account will be debited,Dem go tek dis mone out fo yu akaunt,moyenne,brouillon,brouillon
+Vous recevrez,You will receive,Yu go receive,moyenne,brouillon,brouillon
+Fonds insuffisants,Insufficient funds,Yu no get inof mone,moyenne,brouillon,brouillon
+Limite dépassée,Limit exceeded,Yu don pass di limit,moyenne,brouillon,brouillon
+Montant non autorisé,Amount not allowed,Dem no allow dis mone,moyenne,brouillon,brouillon
+Service momentanément indisponible,Service temporarily unavailable,Di sevis no de wok fo smol taim,moyenne,brouillon,brouillon
+Contact d'urgence,Emergency contact,Nomba fo kwik elp,moyenne,brouillon,brouillon
+Centre d'aide,Help centre,Elp sentre,moyenne,brouillon,brouillon
+FAQ,FAQ,FAQ (kweshon dem wey pipul de aks),elevee,brouillon,brouillon
+Référence client,Customer reference,Nomba fo di kostoma,moyenne,brouillon,brouillon
+Identifiant utilisateur,User ID,Yuza nomba,moyenne,brouillon,brouillon
+Alias de paiement,Payment alias,Nem ansa nomba fo receive pe,faible,brouillon,brouillon
+QR code dynamique,Dynamic QR code,QR kod wey de chenj fo evri pe,faible,brouillon,brouillon
+QR code statique,Static QR code,QR kod wey no de chenj,faible,brouillon,brouillon
+Paiement par lien,Payment by link,Pe wit link,moyenne,brouillon,brouillon
+Demande de paiement,Payment request,Aks fo pe,moyenne,brouillon,brouillon
+Facturier,Biller,Kompani wey de send di bil,faible,brouillon,brouillon
+Numéro de facture,Invoice number,Bil nomba,moyenne,brouillon,brouillon
+Référence client du facturier,Biller customer reference,Nomba wey di kompani gi yu fo di bil,faible,brouillon,brouillon
+Transfert effectué,Transfer completed,Transfer don finish,moyenne,brouillon,complement
+Total,Total,Total,moyenne,brouillon,complement
+Expéditeur,Sender,Sender,moyenne,brouillon,complement
+Envoyer,Send,Send,moyenne,brouillon,complement
+Code PIN,PIN code,PIN code,moyenne,brouillon,complement
+Transaction réussie,Transaction successful,Transaction don go well,moyenne,brouillon,complement
+Transaction échouée,Transaction failed,Transaction no go through,moyenne,brouillon,complement
+Date et heure,Date and time,Date and taim,moyenne,brouillon,complement
+Attention,Warning,Take kia,moyenne,brouillon,complement
+Ne partagez jamais votre code,Never share your code,No ever tell anybody yu code,faible,brouillon,complement
+Opération suspecte,Suspicious operation,Dis transaction dey look strange,faible,brouillon,complement
+Contacter le service client,Contact customer service,Kontak customer service,moyenne,brouillon,complement

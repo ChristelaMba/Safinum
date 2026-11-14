@@ -1,0 +1,12 @@
+__pycache__/
+.env
+*.pyc
+serveur/cache_precharge.json
+.pytest_cache/
+node_modules/
+serveur/.venv/
+*.log
+1.jpeg
+2.jpeg
+3.jpeg
+4.jpeg

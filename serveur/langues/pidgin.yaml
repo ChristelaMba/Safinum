@@ -1,0 +1,18 @@
+# Module de langue : Pidgin camerounais (Kamtok)
+code: pcm
+nom: "Pidgin camerounais"
+statut: stable
+variete: "Pidgin (voix du modele : Nigeria/Cameroun)"
+traduction:
+  moteur: llm
+voix:
+  moteur: mms_tts
+  modele: facebook/mms-tts-pcm
+  repli: en
+glossaire: glossaires/pidgin.csv
+# Confiance affichee selon la confiance notee dans le CSV
+mapping_confiance:
+  elevee: elevee
+  moyenne: elevee
+  faible: moyenne
+  tres_faible: faible

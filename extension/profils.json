@@ -1,0 +1,17 @@
+{
+  "_aide": "Profils par site. Aucun profil n'est requis : le cas general marche seul. 'ignorer' = selecteurs a ne pas lire. 'secrets' = selecteurs de champs secrets en plus. 'forcer' = selecteurs a lire meme si on les aurait ignores. 'motifs' = valeurs a proteger en plus : { type, motif, groupe }.",
+  "defaut": {
+    "ignorer": [],
+    "secrets": [],
+    "forcer": [],
+    "motifs": []
+  },
+  "domaines": {
+    "exemple-banque.test": {
+      "ignorer": [".publicite", "#bandeau-cookies"],
+      "secrets": ["input.champ-code-carte"],
+      "forcer": [],
+      "motifs": []
+    }
+  }
+}

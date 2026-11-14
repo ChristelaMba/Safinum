@@ -1,0 +1,24 @@
+# Mise en ligne sur Render (offre gratuite). Renseigner la cle dans le tableau de bord, jamais ici.
+services:
+  - type: web
+    name: safinum
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: SAFINUM_MOTEUR
+        value: openai
+      - key: SAFINUM_LLM_URL
+        value: https://generativelanguage.googleapis.com/v1beta/openai
+      - key: SAFINUM_MODEL
+        value: gemini-3.5-flash-lite
+      - key: SAFINUM_MODEL_RAPIDE
+        value: gemini-3.5-flash-lite
+      - key: SAFINUM_CORS
+        value: "*"
+      - key: SAFINUM_DEBIT
+        value: "120"
+      - key: SAFINUM_STRICT
+        value: "1"
+      - key: SAFINUM_LLM_KEY
+        sync: false

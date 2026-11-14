@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon Argent Mobile - page avec cadre (démo SAFINUM)</title>
+    <link rel="stylesheet" href="../commun/style.css">
+  </head>
+  <body>
+    <div class="appli">
+      <header class="entete">
+        <h1 class="marque">Espace client</h1>
+        <p class="sous-titre">Le parcours ci-dessous est chargé dans un cadre (iframe) de la même origine.</p>
+      </header>
+      <main class="contenu">
+        <h2>Votre banque en ligne</h2>
+        <p class="discret">Pour les questions, <a href="#aide">consultez l'aide</a>. Le texte de cette page est hors du cadre.</p>
+        <iframe src="../banque_simple/index.html" title="Parcours de la banque" style="width: 100%; height: 900px; border: 1px solid #c6d3cf"></iframe>
+        <p class="discret"><a href="externe.html">Voir la variante avec un cadre d'une autre origine</a></p>
+      </main>
+    </div>
+      <script src="../commun/auto.js"></script>
+  </body>
+</html>

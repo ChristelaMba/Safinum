@@ -1,0 +1,13 @@
+fr,en,cible,confiance,statut,source
+Transfert effectué,Transfer completed,Transfer don finish,moyenne,brouillon,complement
+Total,Total,Total,moyenne,brouillon,complement
+Expéditeur,Sender,Sender,moyenne,brouillon,complement
+Envoyer,Send,Send,moyenne,brouillon,complement
+Code PIN,PIN code,PIN code,moyenne,brouillon,complement
+Transaction réussie,Transaction successful,Transaction don go well,moyenne,brouillon,complement
+Transaction échouée,Transaction failed,Transaction no go through,moyenne,brouillon,complement
+Date et heure,Date and time,Date and taim,moyenne,brouillon,complement
+Attention,Warning,Take kia,moyenne,brouillon,complement
+Ne partagez jamais votre code,Never share your code,No ever tell anybody yu code,faible,brouillon,complement
+Opération suspecte,Suspicious operation,Dis transaction dey look strange,faible,brouillon,complement
+Contacter le service client,Contact customer service,Kontak customer service,moyenne,brouillon,complement

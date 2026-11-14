@@ -1,0 +1,12 @@
+{
+  "name": "safinum-tests",
+  "private": true,
+  "description": "Outils de test seulement. L'extension elle-meme n'a aucune dependance.",
+  "scripts": {
+    "test": "node extension/tests/test_protection.js && node extension/tests/test_lecteur.js"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0",
+    "playwright": "^1.55.0"
+  }
+}

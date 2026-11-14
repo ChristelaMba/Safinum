@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "SAFINUM",
+  "version": "1.3.0",
+  "description": "Traduit une application financiere en langue nationale et la lit a voix haute, sans toucher a son code. Les montants ne sont jamais traduits.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "SAFINUM"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "protection.js",
+        "secrets.js",
+        "nombres.js",
+        "lecteur.js",
+        "lecture_vocale.js",
+        "voix.js",
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "icons": {
+    "48": "icone48.png",
+    "128": "icone128.png"
+  }
+}

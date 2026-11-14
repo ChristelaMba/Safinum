@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mon Argent Mobile - pages denses (démo SAFINUM)</title>
+    <link rel="stylesheet" href="../commun/style.css">
+    <style>
+      .appli { max-width: 760px; }
+      [role="tablist"] { display: flex; gap: 4px; margin-bottom: 12px; }
+      [role="tab"] { min-height: 48px; padding: 8px 14px; font: inherit; background: #ffffff; border: 2px solid #0b5d4b; border-radius: 8px; cursor: pointer; }
+      [role="tab"][aria-selected="true"] { color: #ffffff; background: #0b5d4b; }
+      .pagination { display: flex; gap: 8px; align-items: center; margin: 12px 0; }
+      .pagination button { min-height: 48px; padding: 8px 14px; font: inherit; }
+      .fond-modale { position: fixed; inset: 0; display: none; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.5); }
+      .fond-modale.ouvert { display: flex; }
+      .modale { max-width: 420px; padding: 20px; background: #ffffff; border-radius: 12px; }
+    </style>
+  </head>
+  <body>
+    <div class="appli">
+      <header class="entete">
+        <h1 class="marque">Mon Argent Mobile</h1>
+        <p class="sous-titre">Pages denses : tableaux, liste de 100 lignes, pagination, onglets et fenêtre modale.</p>
+        <nav class="menu" aria-label="Menu principal"></nav>
+      </header>
+      <main id="contenu" class="contenu" tabindex="-1"></main>
+      <section class="contenu" aria-labelledby="titre-hist">
+        <h2 id="titre-hist">Historique des opérations</h2>
+        <div role="tablist" aria-label="Type d'opérations">
+          <button role="tab" type="button" aria-selected="true" data-type="tout">Toutes</button>
+          <button role="tab" type="button" aria-selected="false" data-type="envoi">Envois</button>
+          <button role="tab" type="button" aria-selected="false" data-type="retrait">Retraits</button>
+        </div>
+        <table>
+          <thead><tr><th>Date</th><th>Opération</th><th>Bénéficiaire</th><th>Montant</th><th>Frais</th><th>Statut</th></tr></thead>
+          <tbody id="lignes"></tbody>
+        </table>
+        <div class="pagination">
+          <button type="button" id="precedent">Page précédente</button>
+          <span id="page-info" aria-live="polite"></span>
+          <button type="button" id="suivant">Page suivante</button>
+        </div>
+        <button type="button" class="action secondaire" id="ouvrir-modale">Contester une opération</button>
+      </section>
+    </div>
+    <div class="fond-modale" id="modale" role="dialog" aria-modal="true" aria-labelledby="titre-modale">
+      <div class="modale">
+        <h2 id="titre-modale">Contester une opération</h2>
+        <p>Attention : une contestation bloque l'opération pendant <strong>48</strong> heures. Le montant de <span>25</span> <span>000</span> FCFA ne sera pas débité.</p>
+        <button type="button" class="action" id="fermer-modale" title="Fermer la fenêtre">Fermer</button>
+      </div>
+    </div>
+    <script src="../commun/jeu.js"></script>
+    <script src="app.js"></script>
+      <script src="../commun/auto.js"></script>
+  </body>
+</html>

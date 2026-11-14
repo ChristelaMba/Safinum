@@ -1,0 +1,64 @@
+fr,en,cible,confiance,statut,source
+Solde disponible,Available balance,Ceede ɗe a jogii,faible,brouillon,fiche_relecture
+Solde insuffisant,Insufficient balance,Ceede ɗe a jogii ɗum timmaay,tres_faible,brouillon,fiche_relecture
+Transfert,Transfer,Transfer,moyenne,brouillon,fiche_relecture
+Transfert effectué,Transfer completed,Neldugo ceede timmii,faible,brouillon,fiche_relecture
+Frais de transaction,Transaction fee,Ceede ngam waɗugo operasiyon,tres_faible,brouillon,fiche_relecture
+Montant,Amount,Limngal ceede,faible,brouillon,fiche_relecture
+Total,Total,Ɗum fuu,faible,brouillon,fiche_relecture
+Bénéficiaire,Beneficiary / recipient,Neɗɗo ɗo heɓata ceede,faible,brouillon,fiche_relecture
+Expéditeur,Sender,Neɗɗo ɗo neldi,faible,brouillon,fiche_relecture
+Confirmer,Confirm,Tabbitinugo,tres_faible,brouillon,fiche_relecture
+Annuler,Cancel,Haɗugo,tres_faible,brouillon,fiche_relecture
+Envoyer,Send,Neldugo,faible,brouillon,fiche_relecture
+Retrait,Withdrawal,Ittugo ceede,faible,brouillon,fiche_relecture
+Dépôt,Deposit,Wattugo ceede,tres_faible,brouillon,fiche_relecture
+Paiement,Payment,Yoɓgol,faible,brouillon,fiche_relecture
+Code PIN,PIN code,Code PIN,elevee,brouillon,fiche_relecture
+Code incorrect,Incorrect code,Kod ɗum naa moƴƴi,tres_faible,brouillon,fiche_relecture
+Tentatives restantes,Attempts left,Jarribooje ɗe heddii,tres_faible,brouillon,fiche_relecture
+Transaction réussie,Transaction successful,Ɗum timmii moƴƴa,faible,brouillon,fiche_relecture
+Transaction échouée,Transaction failed,Ɗum bonii,faible,brouillon,fiche_relecture
+En cours de traitement,Being processed,Ɗum e waɗeede. Reen seɗɗa.,tres_faible,brouillon,fiche_relecture
+Numéro de téléphone,Phone number,Limngal telefoon,faible,brouillon,fiche_relecture
+Référence,Reference,Referans,moyenne,brouillon,fiche_relecture
+Date et heure,Date and time,Ñalnde e wakkati,faible,brouillon,fiche_relecture
+Attention,Warning,Hakkilo,faible,brouillon,fiche_relecture
+Ne partagez jamais votre code,Never share your code,A hokkitaa abada kod maaɗa e neɗɗo,tres_faible,brouillon,fiche_relecture
+Opération suspecte,Suspicious operation,Ɗum nanndaay moƴƴa,tres_faible,brouillon,fiche_relecture
+Contacter le service client,Contact customer service,Noddu sarwis klien,faible,brouillon,fiche_relecture
+Réessayer,Try again,Jarribu fahin,faible,brouillon,fiche_relecture
+Franc CFA,CFA franc,Franc CFA,elevee,brouillon,fiche_relecture
+Solde,Balance,Ceede ɗe heddii,faible,brouillon,fiche_relecture
+Transfert d'argent,Money transfer,Neldugo ceede,faible,brouillon,fiche_relecture
+Envoyer de l'argent,Send money,Neldugo ceede,faible,brouillon,fiche_relecture
+Frais,Fees,Ceede ngam waɗugo ɗum,tres_faible,brouillon,fiche_relecture
+Total à payer,Total to pay,Ceede fuu ɗe a yoɓata,faible,brouillon,fiche_relecture
+Compte,Account,Konto,moyenne,brouillon,fiche_relecture
+Historique,History,Taariha,tres_faible,brouillon,fiche_relecture
+Reçu,Receipt,Resi,moyenne,brouillon,fiche_relecture
+Opération réussie,Successful operation,Ɗum timmii moƴƴa,faible,brouillon,fiche_relecture
+Opération échouée,Failed operation,Ɗum bonii,faible,brouillon,fiche_relecture
+Date,Date,Ñalnde,faible,brouillon,fiche_relecture
+Heure,Time,Wakkati,faible,brouillon,fiche_relecture
+Avertissement,Warning,Hakkilo,faible,brouillon,fiche_relecture
+Ne partagez jamais votre code PIN,Never share your PIN,A hokkitaa abada kod PIN maaɗa e neɗɗo,tres_faible,brouillon,fiche_relecture
+Compte bloqué,Account blocked,Konto maaɗa haɗii,tres_faible,brouillon,fiche_relecture
+Service client,Customer service,Sarwis klien,moyenne,brouillon,fiche_relecture
+Contacter le support,Contact support,Noddu ballal,tres_faible,brouillon,fiche_relecture
+Vérifiez le numéro du bénéficiaire,Check the beneficiary number,Ƴeewu limngal neɗɗo ɗo heɓata ceede,tres_faible,brouillon,fiche_relecture
+Cette opération est irréversible,This operation cannot be undone,Ko a waɗi waylataa abada,tres_faible,brouillon,fiche_relecture
+Êtes-vous sûr de vouloir continuer ?,Are you sure you want to continue?,A tabbiti a yiɗi jokkugo?,tres_faible,brouillon,fiche_relecture
+Votre compte sera débité de,Your account will be debited,Ceede ittete e konto maaɗa,tres_faible,brouillon,fiche_relecture
+Vous recevrez,You will receive,A heɓata,faible,brouillon,fiche_relecture
+Fonds insuffisants,Insufficient funds,Ceede ɗe a jogii ɗum timmaay,tres_faible,brouillon,fiche_relecture
+Limite dépassée,Limit exceeded,A yahii dow limit,tres_faible,brouillon,fiche_relecture
+Session expirée,Session expired,Wakkati maaɗa timmii. Naatu fahin.,tres_faible,brouillon,fiche_relecture
+Connexion interrompue,Connection lost,Jokkol ɗum bonii,tres_faible,brouillon,fiche_relecture
+Une erreur est survenue,An error occurred,"Ko woni, moƴƴaay",tres_faible,brouillon,fiche_relecture
+Frais de retrait,Withdrawal fee,Ceede ngam ittugo ceede,tres_faible,brouillon,fiche_relecture
+Montant envoyé,Amount sent,Ceede ɗe neldi,faible,brouillon,fiche_relecture
+Montant reçu,Amount received,Ceede ɗe heɓi,faible,brouillon,fiche_relecture
+Arnaque,Scam,Fenaande ceede,tres_faible,brouillon,fiche_relecture
+Fraude,Fraud,Fenaande,tres_faible,brouillon,fiche_relecture
+Opération en double,Duplicate transaction,Ɗum waɗii laabi ɗiɗi,tres_faible,brouillon,fiche_relecture

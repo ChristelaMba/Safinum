@@ -1,0 +1,9 @@
+# docker compose up --build
+# Le fichier serveur/.env fournit la cle (il n'est pas copie dans l'image).
+services:
+  safinum:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - serveur/.env
